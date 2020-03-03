@@ -14,7 +14,7 @@ module.exports = {
   },
   plugins: [
     {
-    resolve: `@docbnmu/gatsby-theme-minimal`,
+    resolve: `@lekoarts/gatsby-theme-minimal-blog`,
     options: {
       navigation: [
         {
