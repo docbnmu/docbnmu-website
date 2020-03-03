@@ -19,27 +19,27 @@ module.exports = {
       navigation: [
         {
           title: `Notice`,
-          slug: `/notice`,
+          slug: `/notice/`,
         },
 {
           title: `Syllabus`,
-          slug: `/syllabus`,
+          slug: `/syllabus/`,
         },
         {
           title: `Faculty`,
-          slug: `/faculty`,
+          slug: `/faculty/`,
         },
         {
           title: `Statistics`,
-          slug: `/statistics`,
+          slug: `/statistics/`,
         },
         {
           title: `About`,
-          slug: `/about`,
+          slug: `/about/`,
         },
         {
           title: `Alumni Association of Chemistry`,
-          slug: `/alaschem`,
+          slug: `/alaschem/`,
         },
       ],
     },
