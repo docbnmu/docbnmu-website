@@ -34,10 +34,6 @@ module.exports = {
           slug: `/statistics`,
         },
         {
-          title: `Former HODs`,
-          slug: `/former-hods`,
-        },
-        {
           title: `About`,
           slug: `/about`,
         },
