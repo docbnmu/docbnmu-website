@@ -53,7 +53,7 @@ module.exports = {
         description: `University Department of Chemistry at Bhupendra Narayan Mandal University (BNMU), Madhepura`,
         start_url: `/`,
         background_color: `#fff`,
-        theme_color: `#6B46C1`,
+        theme_color: `#19212c`,
         display: `standalone`,
         icons: [
           {
