@@ -19,27 +19,31 @@ module.exports = {
       navigation: [
         {
           title: `Notice`,
-          slug: `/notice/`,
+          slug: `/notice`,
         },
 {
           title: `Syllabus`,
-          slug: `/syllabus/`,
+          slug: `/syllabus`,
         },
         {
           title: `Faculty`,
-          slug: `/faculty/`,
+          slug: `/faculty`,
         },
         {
           title: `Statistics`,
-          slug: `/statistics/`,
+          slug: `/statistics`,
         },
         {
-          title: `About`,
-          slug: `/about/`,
+          title: `Photo Gallery`,
+          slug: `/photos`,
         },
         {
           title: `Alumni Association of Chemistry`,
-          slug: `/alaschem/`,
+          slug: `/alaschem`,
+        },
+        {
+          title: `About`,
+          slug: `/about`,
         },
       ],
     },
