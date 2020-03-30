@@ -3,24 +3,22 @@ import "./hero.css";
 import { Slide } from 'react-slideshow-image';
 
 const slideImages = [
+  './images/Chem.BNMU14.jpg',
   './images/Chem.BNMU1.jpg',
-  './images/Chem.BNMU2.jpg',
   './images/Chem.BNMU3.jpg',
   './images/Chem.BNMU4.jpg',
   './images/Chem.BNMU5.jpg',
-  './images/Chem.BNMU6.jpg',
   './images/Chem.BNMU7.jpg',
   './images/Chem.BNMU8.jpg',
   './images/Chem.BNMU9.jpg',
   './images/Chem.BNMU10.jpg',
   './images/Chem.BNMU11.jpg',
-  './images/Chem.BNMU12.jpg',
-  './images/Chem.BNMU13.jpg',
-  './images/Chem.BNMU14.jpg',
   './images/Chem.BNMU15.jpg',
   './images/Chem.BNMU16.jpg',
-  './images/Chem.BNMU17.jpg',
-  './images/Chem.BNMU18.jpg'
+  './images/Chem.BNMU23.jpg',
+  './images/Chem.BNMU28.jpg',
+  './images/Chem.BNMU33.jpg',
+  './images/Chem.BNMU36.jpg'
 ];
 
 const properties = {
@@ -114,21 +112,6 @@ class SlidePics extends Component {
               
             </div>
           </div>
-          <div className="each-slide">
-            <div style={{'backgroundImage': `url(${slideImages[15]})`}}>
-              
-            </div>
-          </div>
-          <div className="each-slide">
-            <div style={{'backgroundImage': `url(${slideImages[16]})`}}>
-              
-            </div>
-          </div>
-          <div className="each-slide">
-            <div style={{'backgroundImage': `url(${slideImages[17]})`}}>
-              
-            </div>
-            </div>
         </Slide>
       </div>
     )
