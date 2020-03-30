@@ -8,11 +8,8 @@ const slideImages = [
   './images/Chem.BNMU3.jpg.webp',
   './images/Chem.BNMU4.jpg.webp',
   './images/Chem.BNMU5.jpg.webp',
-  './images/Chem.BNMU7.jpg.webp',
   './images/Chem.BNMU8.jpg.webp',
   './images/Chem.BNMU9.jpg.webp',
-  './images/Chem.BNMU10.jpg.webp',
-  './images/Chem.BNMU11.jpg.webp',
   './images/Chem.BNMU15.jpg.webp',
   './images/Chem.BNMU16.jpg.webp',
   './images/Chem.BNMU23.jpg.webp',
@@ -99,19 +96,8 @@ class SlidePics extends Component {
           </div>
           <div className="each-slide">
             <div style={{'backgroundImage': `url(${slideImages[12]})`}}>
-              
             </div>
-          </div>
-          <div className="each-slide">
-            <div style={{'backgroundImage': `url(${slideImages[13]})`}}>
-              
-            </div>
-          </div>
-          <div className="each-slide">
-            <div style={{'backgroundImage': `url(${slideImages[14]})`}}>
-              
-            </div>
-          </div>
+          </div>   
         </Slide>
       </div>
     )
