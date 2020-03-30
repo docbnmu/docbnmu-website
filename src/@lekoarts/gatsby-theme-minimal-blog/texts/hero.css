@@ -1,18 +1,17 @@
 .slide-container {
     max-width: 100%;
-    margin: 0; }
+    margin: 0px; }
   
   .each-slide > div {
     display: flex;
     align-items: center;
     justify-content: center;
     background-size: cover;
-    height: 300px;
+    height: 50vh;
   }
-  
   .each-slide span {
     padding: 0px;
-    font-size: 20px;
+    font-size: 0px;
     background: #9f7aea;
     text-align: center;
   }
@@ -22,19 +21,19 @@
   }
   
   .each-fade .image-container {
-    width: 100%;
+    width: 0%;
     overflow: hidden;
   }
   
   .each-fade .image-container img {
-    width: 100%;
+    width: 0%;
   }
   
   .each-fade h2 {
-    width: 25%;
+    width: 0%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0;
+    margin: 0px;
     background: #9f7aea;
   }
