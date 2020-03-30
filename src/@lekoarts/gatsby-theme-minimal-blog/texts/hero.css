@@ -1,9 +1,6 @@
 .slide-container {
-    width: 100%;
+    max-width: 100%;
     margin: 0; }
-  
-  h3 {
-    text-align: center; }
   
   .each-slide > div {
     display: flex;

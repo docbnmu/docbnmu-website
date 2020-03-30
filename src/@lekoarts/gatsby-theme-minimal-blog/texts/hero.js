@@ -3,22 +3,22 @@ import "./hero.css";
 import { Slide } from 'react-slideshow-image';
 
 const slideImages = [
-  './images/Chem.BNMU14.jpg',
-  './images/Chem.BNMU1.jpg',
-  './images/Chem.BNMU3.jpg',
-  './images/Chem.BNMU4.jpg',
-  './images/Chem.BNMU5.jpg',
-  './images/Chem.BNMU7.jpg',
-  './images/Chem.BNMU8.jpg',
-  './images/Chem.BNMU9.jpg',
-  './images/Chem.BNMU10.jpg',
-  './images/Chem.BNMU11.jpg',
-  './images/Chem.BNMU15.jpg',
-  './images/Chem.BNMU16.jpg',
-  './images/Chem.BNMU23.jpg',
-  './images/Chem.BNMU28.jpg',
-  './images/Chem.BNMU33.jpg',
-  './images/Chem.BNMU36.jpg'
+  './images/Chem.BNMU14.jpg.webp',
+  './images/Chem.BNMU1.jpg.webp',
+  './images/Chem.BNMU3.jpg.webp',
+  './images/Chem.BNMU4.jpg.webp',
+  './images/Chem.BNMU5.jpg.webp',
+  './images/Chem.BNMU7.jpg.webp',
+  './images/Chem.BNMU8.jpg.webp',
+  './images/Chem.BNMU9.jpg.webp',
+  './images/Chem.BNMU10.jpg.webp',
+  './images/Chem.BNMU11.jpg.webp',
+  './images/Chem.BNMU15.jpg.webp',
+  './images/Chem.BNMU16.jpg.webp',
+  './images/Chem.BNMU23.jpg.webp',
+  './images/Chem.BNMU28.jpg.webp',
+  './images/Chem.BNMU33.jpg.webp',
+  './images/Chem.BNMU36.jpg.webp'
 ];
 
 const properties = {
