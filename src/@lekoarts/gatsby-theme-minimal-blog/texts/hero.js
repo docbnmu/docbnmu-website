@@ -11,13 +11,34 @@ const slideImages = [
   './images/Chem.BNMU8.jpg.webp',
   './images/Chem.BNMU9.jpg.webp',
   './images/Chem.BNMU15.jpg.webp',
-  './images/Chem.BNMU16.jpg.webp',
+  './images/Chem.BNMU14.jpg.webp',
   './images/Chem.BNMU23.jpg.webp',
   './images/Chem.BNMU28.jpg.webp',
   './images/Chem.BNMU33.jpg.webp',
   './images/Chem.BNMU36.jpg.webp'
 ];
+const lazyLoadImages = () => {
+  const lazyImages = [].slice.call(document.querySelectorAll("img.lazy"));
+    if ("IntersectionObserver" in window) {
+      let lazyImageObserver = new IntersectionObserver(function(
+        entries,
+        observer
+      ) {
+        entries.forEach(function(entry) {
+          if (entry.isIntersecting) {
+            let lazyImage = entry.target;
+            lazyImage.src = lazyImage.dataset.src;
+            lazyImage.classList.remove("lazy");
+            lazyImageObserver.unobserve(lazyImage);
+          }
+        });
+      });
 
+      lazyImages.forEach(function(lazyImage) {
+        lazyImageObserver.observe(lazyImage);
+      });
+    }
+}
 const properties = {
   duration: 5000,
   transitionDuration: 300,
@@ -30,6 +51,9 @@ const properties = {
   }
 }
 class SlidePics extends Component {
+  componentDidMount() {
+    lazyLoadImages()
+  }
   render() {
     return (
       <div className="slide-container">
