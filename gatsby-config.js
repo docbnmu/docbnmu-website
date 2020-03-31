@@ -21,7 +21,7 @@ module.exports = {
           title: `Notice`,
           slug: `/notice`,
         },
-{
+        {
           title: `Syllabus`,
           slug: `/syllabus`,
         },
