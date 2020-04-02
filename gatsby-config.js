@@ -73,6 +73,13 @@ module.exports = {
         ],
       },
     },
+    {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+         icon: './static/logo.svg',
+         cache_busting_mode: 'none'
+      }
+   },
     `gatsby-plugin-offline`,
     `gatsby-plugin-netlify`,
     // `gatsby-plugin-webpack-bundle-analyser-v2`,
