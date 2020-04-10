@@ -1,11 +1,11 @@
 backend:
-    name: git-gateway
-    branch: master
+  name: github
+  repo: docbnmu/docbnmu-website
 
 publish_mode: editorial_workflow
 media_folder: static/documents
 public_folder: /documents
-logo_url: https://docbnmu.in/logo.svg
+logo_url: https://docbnmu.in/banner.png
 collections:
   - name: "notice"
     label: "Notice"
