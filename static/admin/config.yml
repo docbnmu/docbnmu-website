@@ -7,15 +7,13 @@ backend:
         delete: Delete {{collection}} “{{slug}}”
         uploadMedia: Upload “{{path}}”
         deleteMedia: Delete “{{path}}”
-        openAuthoring: '{{message}}'
-    
-  publish_mode: editorial_workflow
-  media_folder: static/documents
-  public_folder: /documents
-  logo_url: https://docbnmu.in/logo.svg
-  show_preview_links: true
-
-  collections:
+       
+publish_mode: editorial_workflow
+media_folder: static/documents
+public_folder: /documents
+logo_url: https://docbnmu.in/logo.svg
+show_preview_links: true
+collections:
     - name: notice
       folder: content/notices
       slug: {{year}}-{{month}}-{{slug}}
