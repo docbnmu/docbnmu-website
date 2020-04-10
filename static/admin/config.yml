@@ -1,0 +1,38 @@
+backend:
+    name: git-gateway
+    branch: master
+    commit_messages:
+        create: Create {{collection}} “{{slug}}”
+        update: Update {{collection}} “{{slug}}”
+        delete: Delete {{collection}} “{{slug}}”
+        uploadMedia: Upload “{{path}}”
+        deleteMedia: Delete “{{path}}”
+        openAuthoring: '{{message}}'
+    
+  publish_mode: editorial_workflow
+  media_folder: static/documents
+  public_folder: /documents
+  logo_url: https://docbnmu.in/logo.svg
+  show_preview_links: true
+
+  collections:
+    - name: notice
+      folder: content/notices
+      slug: {{year}}-{{month}}-{{slug}}
+      preview_path: ./{{slug}}
+      fields:
+        - label: "Title"
+          name: "title"
+          - {label: "Featured Image", name: "banner", widget: "image", required: false}
+          - {label: "tags", name: "tags", widget: "hidden", default: "tags"}
+          - {label: "Notice body", name: "body", widget: "markdown"}
+
+    - name: pages
+    folder: content/pages
+    slug: {{title}}
+    preview_path: ./{{slug}}
+    fields:
+      - label: "Title"
+        name: "title"
+        - {label: "Featured Image", name: "banner", widget: "image", required: false}
+        - {label: "Notice body", name: "body", widget: "markdown"}
