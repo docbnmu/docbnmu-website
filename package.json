@@ -6,6 +6,7 @@
   "author": "compliment",
   "license": "MIT",
   "scripts": {
+    "build:netlify": "npm i && npm run-script build",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "develop:cypress": "cross-env CYPRESS_SUPPORT=y yarn develop",

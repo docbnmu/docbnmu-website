@@ -1,7 +1,3 @@
-[build]
-    command = "npm install && gatsby build"
-    publish = "public/"
-
 [[redirects]]
     from = "*"
     to = "/404"
