@@ -5,11 +5,11 @@ backend:
 publish_mode: editorial_workflow
 media_folder: static/documents
 public_folder: /documents
-logo_url: https://docbnmu.in/banner.png
+logo_url: https://docbnmu.in/logo.svg
 collections:
   - name: "notice"
     label: "Notice"
-    folder: "content/notices"
+    folder: "content/notices/"
     create: true
     slug: "{{slug}}"
     editor:
@@ -19,4 +19,83 @@ collections:
       - { label: "Date", name: "date", widget: "date" }
       - { label: "Tags", name: "tags", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
-    
+  - name: "about"
+    label: "About"
+    folder: "pages/about/"
+    create: true
+    slug: "{{slug}}"
+    editor:
+      preview: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "syllabus"
+    label: "Syllabus"
+    folder: "pages/syllabus"
+    create: true
+    slug: "{{slug}}"
+    editor:
+      preview: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "alaschem"
+    label: "ALASCHEM"
+    folder: "pages/alaschem"
+    create: true
+    slug: "{{slug}}"
+    editor:
+      preview: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "faculty"
+    label: "Faculty"
+    folder: "pages/faculty/"
+    create: true
+    slug: "{{slug}}"
+    editor:
+      preview: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "photos"
+    label: "Photos"
+    folder: "pages/photos/"
+    create: true
+    slug: "{{slug}}"
+    editor:
+      preview: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "statistics"
+    label: "Statistics"
+    folder: "pages/statistics/"
+    create: true
+    slug: "{{slug}}"
+    editor:
+      preview: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "contact"
+    label: "Contact"
+    folder: "pages/contact/"
+    create: true
+    slug: "{{slug}}"
+    editor:
+      preview: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "404"
+    label: "404"
+    folder: "pages/404/"
+    create: true
+    slug: "{{slug}}"
+    editor:
+      preview: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
